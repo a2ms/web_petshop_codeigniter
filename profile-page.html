@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Profile Page</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+
+</head>
+
+<body class="profile-page">
+	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+    	<div class="container">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="http://www.creative-tim.com">Creative Tim</a>
+        	</div>
+
+        	<div class="collapse navbar-collapse">
+		<ul  class="nav navbar-nav navbar-right">
+			<li>
+				<a href="#">Pets</a>
+			</li>
+			<li>
+                <a href="#">Pet Foods</a>
+            </li>
+			<li>
+				<a href="#">Accesories</a>
+			</li>
+			<li>
+				<a href="#">News</a>
+			</li>
+			<li>
+				<a href="#">Tips</a>
+			</li>
+			<li class="dropdown">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login
+					<b class="caret"></b>
+				</a>
+	            <ul class="dropdown-menu dropdown-menu-right">
+	                    <li><a href="#" data-toggle="modal" data-target="#myModalSignIn"> Login</a></li>
+		                <li><a href="#" data-toggle="modal" data-target="#myModalSignUp"> Register</a></li>
+		        </ul>
+	        </li>
+    	</ul>
+
+    </div><!-- /.navbar-collapse -->
+    	</div>
+    </nav>
+
+    <div class="wrapper">
+		<div class="header header-filter" style="background-image: url('http://www.petstopwatford.com/web/images/main-banner.jpg');"></div>
+
+		<div class="main main-raised">
+			<div class="profile-content">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="profile">
+	                        <div class="avatar">
+	                            <img src="assets/img/christian.jpg" alt="Circle Image" class="img-circle img-responsive img-raised">
+	                        </div>
+	                        <div class="name">
+	                            <h3 class="title">Christian Louboutin</h3>
+								</br>
+	                        </div>
+	                    </div>
+	                </div>
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group  is-empty">
+						<input type="text" class="form-control" placeholder="Search">
+						<span class="material-input"></span>
+						</div>
+						<button type="submit" class="btn btn-white btn-round btn-just-icon">
+							<i class="material-icons">search</i><div class="ripple-container"></div>
+						</button>
+					</form>
+
+					<div class="row">
+				
+					<div class="row">
+					<div class="col-md-12">
+						</br>
+						</br>
+						<!-- Tabs with icons on Card -->
+						<div class="card card-nav-tabs">
+							<div class="header header-success">
+								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+								<div class="nav-tabs-navigation">
+									<!--<ul class="pull-right">
+										<li class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+												<i class="material-icons">add</i>
+												Add Agenda
+										</li>
+									</ul> -->
+									<div class="nav-tabs-wrapper">
+										<ul class="nav nav-tabs" data-tabs="tabs">
+											<li>
+												<h4>  My Iklan</h4>
+											</li>
+											<li class="pull-right">
+												<a href="#pablo" data-toggle="modal" data-target="#myModalAds">
+													<i class="material-icons">add</i>
+													Add Ads
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+									<div class="tab-content">
+										<!-- Tabs with icons on Card -->
+											<div class="col-md-3">
+												<div class="card">
+													<div class="content">
+														<div class="tab-content">
+															<div class="text-center">															
+																<img src="assets/img/bull.jpg" class="img-rounded" width="150px" height="140">
+															</div>
+															<div class="text-center">
+															</br>
+																<h4> Buldog Ras Medan </h4>
+															</div>
+															<div class="text-center">
+																<p> $500.00 </p>
+															</div>
+															<div class="text-center">
+																<button type="button" class="btn btn-primary btn-round" data-toggle="modal" data-target="#myModalDAds">Sold</button>
+																<button type="button" class="btn btn-primary btn-round" data-toggle="modal" data-target="#myModalUAds">Update</button>
+															</div>
+														</div>
+													</div>
+												</div>
+												</br>
+												</br>
+											</div>
+											<div class="col-md-3">
+												<div class="card">
+													<div class="content">
+														<div class="tab-content">
+															<div class="text-center">															
+																<img src="assets/img/cat.jpg" class="img-rounded" width="150px" height="140">
+															</div>
+															<div class="text-center">
+															</br>
+																<h4> Kucing Ras Bantul </h4>
+															</div>
+															<div class="text-center">
+																<p> $700.00 </p>
+															</div>
+															<div class="text-center">
+																<button type="button" class="btn btn-primary btn-round" data-toggle="modal" data-target="#myModalDAds">Sold</button>
+																<button type="button" class="btn btn-primary btn-round" data-toggle="modal" data-target="#myModalUAds">Update</button>
+															</div>
+														</div>
+													</div>
+												</div>
+												</br>
+												</br>
+											</div>
+											<div class="col-md-3">
+												<div class="card">
+													<div class="content">
+														<div class="tab-content">
+															<div class="text-center">															
+																<img src="assets/img/dog2.jpg" class="img-rounded" width="150px" height="140">
+															</div>
+															<div class="text-center">
+															</br>
+																<h4> Anjing ras Depok </h4>
+															</div>
+															<div class="text-center">
+																<p> $400.00 </p>
+															</div>
+															<div class="text-center">
+																<button type="button" class="btn btn-primary btn-round" data-toggle="modal" data-target="#myModalDAds">Sold</button>
+																<button type="button" class="btn btn-primary btn-round" data-toggle="modal" data-target="#myModalUAds">Update</button>
+															</div>
+														</div>
+													</div>
+												</div>
+												</br>
+												</br>
+											</div>
+											<div class="col-md-3">
+												<div class="card">
+													<div class="content">
+														<div class="tab-content">
+															<div class="text-center">															
+																<img src="assets/img/dog3.jpg" class="img-rounded" width="150px" height="140">
+															</div>
+															<div class="text-center">
+															</br>
+																<h4> Anjing Ras Jakal </h4>
+															</div>
+															<div class="text-center">
+																<p> $500.00 </p>
+															</div>
+															<div class="text-center">
+																<button type="button" class="btn btn-primary btn-round" data-toggle="modal" data-target="#myModalDAds">Sold</button>
+																<button type="button" class="btn btn-primary btn-round" data-toggle="modal" data-target="#myModalUAds">Update</button>
+															</div>
+														</div>
+													</div>
+												</div>
+												</br>
+												</br>
+											</div>
+										<!-- End Tabs with icons on Card -->
+									</div>
+								</div>
+						</div>
+						</br>
+						</br>
+						<!-- End Tabs with icons on Card -->
+					</div>
+				</div>
+
+	            </div>
+	        </div>
+		</div>
+
+    </div>
+<footer class="footer footer-transparent">
+    <div class="container">
+        <div class="copyright">
+            &copy; 2017 E-peds, made with love
+        </div>
+    </div>
+</footer>
+
+<!-- Sart Modal Add Ads -->
+	<div class="modal fade" id="myModalAds" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			</br>
+
+					<div class="card card-signup">
+							<form class="form" method="" action="">
+								<div class="header header-primary text-center">
+									<h4>Add Advertisement</h4>
+								</div>
+								<div class="content">
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">face</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Title Ads...">
+									</div>
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">email</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Price...">
+									</div>
+									
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">email</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Pet Category...">
+									</div>
+									
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">email</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Pet Type...">
+									</div>
+									
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">room</i>
+										</span>
+										<textarea class="form-control" placeholder="Deskription" rows="5"></textarea>
+									</div>
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">account_box</i>
+										</span>
+										</br>
+
+										<label>Gambar Donatur</label>
+										<input type="file" class="btn btn-primary" name="gambar_agenda" id="gambar_agenda"/>
+									</div>
+								</div>
+								<div class="footer text-center">
+								</br>
+								</br>
+									<button type="button" class="btn btn-primary btn-round">Post</button>
+								</div>
+							</form>
+						</div>
+
+			</div>
+		</div>
+	</div>
+	<!--  End Modal -->
+	
+<!-- Sart Modal Update Ads -->
+	<div class="modal fade" id="myModalUAds" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			</br>
+
+					<div class="card card-signup">
+							<form class="form" method="" action="">
+								<div class="header header-primary text-center">
+									<h4>Update Advertisement</h4>
+								</div>
+								<div class="content">
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">face</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Title Ads...">
+									</div>
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">email</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Price...">
+									</div>
+									
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">email</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Pet Category...">
+									</div>
+									
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">email</i>
+										</span>
+										<input type="text" class="form-control" placeholder="Pet Type...">
+									</div>
+									
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">room</i>
+										</span>
+										<textarea class="form-control" placeholder="Deskription" rows="5"></textarea>
+									</div>
+
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="material-icons">account_box</i>
+										</span>
+										</br>
+
+										<label>Gambar Donatur</label>
+										<input type="file" class="btn btn-primary" name="gambar_agenda" id="gambar_agenda"/>
+									</div>
+								</div>
+								<div class="footer text-center">
+								</br>
+								</br>
+									<button type="button" class="btn btn-primary btn-round">Post</button>
+								</div>
+							</form>
+						</div>
+
+			</div>
+		</div>
+	</div>
+	<!--  End Modal -->
+
+<!-- Sart Modal Delete Ads -->
+	<div class="modal fade" id="myModalDAds" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			</br>
+
+					<div class="card card-signup">
+							<form class="form" method="" action="">
+								<div class="header header-primary text-center">
+									<h4>Alert..!!!</h4>
+								</div>
+								<div class="content">
+								</br>
+								</br>
+								<div class="text-center">
+									<h4>Are You Sure This Ads Sold Out???</h4>
+									</div>
+								<div class="footer text-center">
+								</br>
+								</br>
+									<button type="button" class="btn btn-primary btn-round">Yes</button>
+									<button type="button" class="btn btn-danger btn-round">No</button>
+								</div>
+							</form>
+						</div>
+
+			</div>
+		</div>
+	</div>
+	<!--  End Modal -->
+
+</body>
+	<!--   Core JS Files   -->
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,20 @@
+#alert_login
+{
+  display: none;
+}
+
+#alert_register
+{
+	display: none;
+}
+
+.alert.alert-success
+{
+  display: none;
+}
+
+/*.alert.alert-danger
+{
+  display: none;
+}
+*/
